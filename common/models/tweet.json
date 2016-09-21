@@ -1,0 +1,31 @@
+{
+  "name": "tweet",
+  "plural": "tweets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": { [
+    "tweetId": {
+      "type": "string",
+      "required": true
+    },
+    "hashTag": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "tweetText": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

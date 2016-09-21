@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDs": {
+    "host": "Lenovo-PC",
+    "port": 27017,
+    "database": "friends",
+    "username": "",
+    "password": "",
+    "name": "mongoDs",
+    "connector": "mongodb"
+  }
+}
